@@ -1,38 +1,263 @@
+h3 {
+  margin: 0px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.active-element {
+  background-color: #333;
+  box-shadow: #333;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+/* ----------------------------------------------------app ---------------------------------------------- */
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* --------------------------------------------------- nav css ----------------------------------------------- */
+.nav-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 15%;
+  background: #444;
+  height: auto;
+  min-height: 750px;
+}
+
+.not-active {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+/* .dash-elements {
+	padding: 25px;
+} */
+
+.btn-collapse {
+  font-size: 25px;
+  padding: 5px 15px;
+  color: white;
+  background: #333;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-toggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.dash-icon {
+  margin-right: 10%;
+}
+
+.dash-element-content {
+  padding: 3px;
+}
+
+/* hiding nav elements content on toggle */
+
+.content-hide {
+  /* .dash-element-content{  */
+  display: none;
+}
+
+.reduce-width {
+  /* .nav-container{ */
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+  background: #444;
+  height: 750px;
+}
+
+@media screen and (max-width: 1300px) {
+  .dash-element-content {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* ------------------------------------------------------ Dashboard ----------------------------------------------------------*/
+
+.dash-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dash-title {
+  padding: 0px 25px;
+  background-color: #e8e8e86b;
+  width: 100%;
+  /* height: 85px; */
+}
+
+.dash-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.piech {
+	margin: 40px;
+	width: 35%;
+} 
+
+.chart-padding {
+  padding: 0px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+/* .dash-card-1{
+    width: 25rem;
+} */
+
+.dash-card-2{
+  padding: 0px;
+  margin: 40px 15px;
+}
+
+.linegph{
+  margin: 40px 15px;
+}
+
+@media screen and (max-width: 1000px){
+    
+}
+
+/* ------------------------------------------------------ user ----------------------------------------------------------*/
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.user-title {
+  padding: 0px 25px;
+  background-color: #e8e8e86b;
+  width: 100%;
+  /* height: 85px; */
+}
+
+.user-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profile {
+  width: 35% !important;
+  border-radius: 100% !important;
+  border: 3px solid;
+}
+
+.text-center {
+  width: 25rem;
+}
+
+@media screen and (max-width: 470px) {
+  .text-center {
+    width: 100%;
   }
+}
+
+/* ------------------------------------------------------ form ----------------------------------------------------------*/
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-title {
+  padding: 0px 25px;
+  background-color: #e8e8e86b;
+  width: 100%;
+  /* height: 85px; */
+}
+
+.form-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.actual-form {
+  width: 40%;
+  height: auto;
+  padding: 25px;
+  margin: 40px;
+  border: #f7a9a9 2px solid;
+  border-radius: 10px;
+  box-shadow: 2.5px 5px #00000030;
+}
+
+.actual-table {
+  width: 45%;
+  padding: 25px;
+  margin: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .actual-form {
+    width: 95%;
+    height: auto;
+    margin: 5px;
+  }
+
+  .form-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container {
+    width: 85%;
+  }
+
+  .actual-table {
+    width: 100%;
+    padding: 0px;
+    margin: 50px 0 0 0;
+  }
+
+  .nav-container {
+    min-height: 750px;
+    height: auto;
+  }
+}
+
+/* ------------------------------------------------------ map ----------------------------------------------------------*/
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.map-title {
+  padding: 0px 25px;
+  background-color: #e8e8e86b;
+}
+
+.map-area {
+  width: 99.8%;
+  height: 88.2%;
 }
