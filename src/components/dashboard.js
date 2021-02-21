@@ -58,18 +58,18 @@ const Dashboard = () => {
                 24 Hours Performance
               </Card.Subtitle>
             </Card.Header>
-            <Card.Body className='line-graph-padding'>
+            <Card.Body className="line-graph-padding">
               <Chart
                 width={"600px"}
                 height={"280px"}
                 chartType="LineChart"
                 loader={<div>Loading Chart</div>}
                 data={[
-                  ["Time", "Open", "Click",'Click Second Time'],
+                  ["Time", "Open", "Click", "Click Second Time"],
                   [0, 0, 0, 0],
-                  [1, 100, 180, 130 ],
+                  [1, 100, 180, 130],
                   [2, 200, 150, 115],
-                  [3, 170, 300, 200 ],
+                  [3, 170, 300, 200],
                   [4, 180, 150, 130],
                   [5, 280, 323, 350],
                   [6, 110, 301, 275],

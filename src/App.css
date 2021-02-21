@@ -16,8 +16,9 @@ a:hover {
   color: white !important;
 }
 
-.h3, h3 {
-	font-size: 1.25rem !important;
+.h3,
+h3 {
+  font-size: 1.25rem !important;
 }
 
 /* ----------------------------------------------------app ---------------------------------------------- */
@@ -57,15 +58,15 @@ a:hover {
 }
 
 .btn-toggle {
-	display: flex;
-	flex-direction: row;
-	/* justify-content: center; */
-	padding: 12px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  padding: 12px;
 }
 
 .dash-icon {
-	margin-right: 5%;
-	/* margin-top: 2%; */
+  margin-right: 5%;
+  /* margin-top: 2%; */
 }
 
 .dash-element-content {
@@ -93,7 +94,7 @@ a:hover {
     display: none;
   }
 
-  .reduce-width{
+  .reduce-width {
     width: 15%;
   }
 
@@ -125,9 +126,9 @@ a:hover {
 }
 
 .piech {
-	margin: 40px;
-	width: 35%;
-} 
+  margin: 40px;
+  width: 35%;
+}
 
 .chart-padding {
   padding: 0px;
@@ -135,7 +136,7 @@ a:hover {
   overflow-x: scroll;
 }
 
-.line-graph-padding{
+.line-graph-padding {
   padding: 0px;
   overflow: hidden;
   overflow-x: scroll;
@@ -145,16 +146,16 @@ a:hover {
     width: 25rem;
 } */
 
-.dash-card-2{
+.dash-card-2 {
   padding: 0px;
   margin: 40px 15px;
 }
 
-.linegph{
+.linegph {
   margin: 40px 15px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   .dash-content {
     flex-direction: column;
   }
@@ -170,7 +171,7 @@ a:hover {
 }
 
 .linegph {
-	margin: 40px 5px;
+  margin: 40px 5px;
 }
 
 /* ------------------------------------------------------ user ----------------------------------------------------------*/
@@ -292,6 +293,6 @@ a:hover {
 }
 
 .map-area {
-	width: 99.8%;
-	height: 93%;
+  width: 99.8%;
+  height: 93%;
 }

@@ -12,13 +12,20 @@ const Userprofile = () => {
         <Card className="text-center">
           <Card.Img variant="top" src="./img/timeline.jpg" />
           <Card.Body>
-          <Card.Img className="profile" variant="top" src="./img/profile.jpg" />  
+            <Card.Img
+              className="profile"
+              variant="top"
+              src="./img/profile.jpg"
+            />
             <Card.Title>Mike Andrew</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">michael24</Card.Subtitle>
             <Card.Text>
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+              Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+              used in laying out print, graphic or web designs.
             </Card.Text>
-            <Button variant="primary" size="lg" block>Profile</Button>
+            <Button variant="primary" size="lg" block>
+              Profile
+            </Button>
           </Card.Body>
         </Card>
       </div>
