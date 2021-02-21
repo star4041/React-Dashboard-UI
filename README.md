@@ -2,37 +2,16 @@
 
 # Desktop View
 ![desk1](./img/1.png)
-
-#
-
 ![desk2](./img/2.png)
-
-
-#
-
 ![desk3](./img/3.png)
-
-
-#
-
 ![desk4](./img/4.png)
 
 # Mobile Responsive 
 
 ![MOB1](./img/5.png)
-
-#
-
 ![mob2](./img/6.png)
-
-#
-
 ![mob3](./img/7.png)
-
-#
-
 ![mob4](./img/8.png)
-
 
 # Getting Started with Create React App
 
